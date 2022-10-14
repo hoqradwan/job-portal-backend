@@ -1,0 +1,47 @@
+[
+    {
+        "job-title": "Frontend Developer",
+        "company-name": "ABC Limited",
+        "location": "New York, USA",
+        "category": "full time",
+        "job-type": "Remote",
+        "employees": 25,
+        "deadline": "2022-03-25"
+    },
+    {
+        "job-title": "React Developer",
+        "company-name": "Coiap Enterprise",
+        "location": "Dhaka, Bangladesh",
+        "category": "full time",
+        "job-type": "on-site",
+        "employees": 15,
+        "deadline": "2022-03-29"
+    },
+    {
+        "job-title": "Frontend Engineer",
+        "company-name": "DEF Limited",
+        "location": "California, USA",
+        "category": "full time",
+        "job-type": "Remote",
+        "employees": 50,
+        "deadline": "2022-03-30"
+    },
+    {
+        "job-title": "Backend Developer",
+        "company-name": "Padol Limited",
+        "location": "Texus, USA",
+        "category": "part time",
+        "job-type": "hybrid",
+        "employees": 100,
+        "deadline": "2022-04-20"
+    },
+    {
+        "job-title": "Frontend Developer",
+        "company-name": "Hackathon Protocol",
+        "location": "Berlin, Germany",
+        "category": "part time",
+        "job-type": "Remote",
+        "employees": 33,
+        "deadline": "2022-03-27"
+    }
+]
