@@ -1,4 +1,4 @@
-const { getJobsService, getJobByIdService } = require("../services/candidate.service");
+const { getJobsService, getJobByIdService } = require("../services/job.service");
 
 exports.getJobs = async (req, res) => {
   try {
