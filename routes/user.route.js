@@ -1,15 +1,10 @@
-const express = require("express");
-const userController = require("../controllers/user.controller");
-const verifyToken = require("../middlewares/verifyToken");
-const router = express.Router();
+const express = require('express');
+const router = express.Router()
+const controller = require("../Controller/user.controller");
+const { verifyToken } = require('../Middleware/verifyToken');
 
+router.post('/signup', controller.signUp)
+router.post('/login', controller.singIn)
+router.get('/me', verifyToken, controller.me)
 
-router.post("/signup", userController.signup);
-// router.get("/signup/confirmation/:token", userController.confirmEmail);
-
-router.post("/login", userController.login);
-
-router.get("/me", userController.getMe);
-
-
-module.exports = router;
+module.exports = router
